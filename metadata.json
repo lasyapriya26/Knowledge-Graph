@@ -1,0 +1,6 @@
+{
+  "name": "Knowledge Graph Builder",
+  "description": "An Information Extraction Engine that converts natural language paragraphs into interactive visual knowledge graphs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,40 @@
+import type { EntityType, RelationType } from './types';
+
+export const ALLOWED_ENTITY_TYPES_SET = new Set<EntityType>([
+  'Person',
+  'Institution',
+  'Company',
+  'Organization',
+  'Project',
+  'Skill',
+  'ProgrammingLanguage',
+  'Course',
+  'Department',
+  'Technology',
+  'City',
+  'State',
+  'Country',
+  'Team',
+  'Unknown',
+]);
+
+export const ALLOWED_RELATIONS_SET = new Set<RelationType>([
+  'FATHER',
+  'MOTHER',
+  'BROTHER',
+  'SISTER',
+  'FRIEND',
+  'STUDIES_AT',
+  'WORKS_AT',
+  'WORKING_ON',
+  'GUIDED_BY',
+  'KNOWS',
+  'MEMBER_OF',
+  'BELONGS_TO',
+  'USES',
+  'CREATED',
+  'OWNS',
+  'LOCATED_IN',
+  'PART_OF',
+  'LEADS',
+]);
